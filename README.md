@@ -1,8 +1,26 @@
-# Scan da Alvorada 3D
+<p align="center">
+  <img src="assets/images/logo.png" alt="Logo Scan da Alvorada 3D" width="180">
+</p>
 
-Site institucional público do Scan da Alvorada 3D.
+<h1 align="center">Scan da Alvorada 3D</h1>
 
-O projeto apresenta a marca, a identidade visual, os tipos de peças produzidas e o canal atual para encomendas: Instagram Direct.
+<p align="center">
+  Site institucional público da marca, com identidade visual, apresentação dos serviços e canais de contato.
+</p>
+
+<p align="center">
+  <a href="https://mvgouvea.github.io/scandaalvorada/">Acessar site publicado</a>
+</p>
+
+## Identidade visual
+
+A identidade do Scan da Alvorada 3D combina a ideia de alvorada, criação e impressão 3D personalizada.
+
+- **Nome visual:** Scan da Alvorada 3D
+- **Slogan:** Imprimindo sonhos
+- **Cores principais:** bronze/dourado, tons claros e verde de apoio
+- **Estilo:** limpo, artesanal, acolhedor e institucional
+- **Tipografia:** títulos fortes inspirados no nome da logo; textos de apoio mais leves, inspirados no subtítulo da marca
 
 ## Conteúdo previsto
 
@@ -10,7 +28,3 @@ O projeto apresenta a marca, a identidade visual, os tipos de peças produzidas 
 - Chamada para encomendas pelo Instagram.
 - Portfólio de peças impressas.
 - Referências e projetos 3D recomendados ou autorais.
-
-## Observação
-
-Este repositório deve conter somente os arquivos públicos do site. Materiais internos de gestão, custos, planejamento e instruções da empresa ficam fora deste repositório.
