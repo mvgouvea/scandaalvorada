@@ -20,7 +20,9 @@ A identidade do Scan da Alvorada 3D combina a ideia de alvorada, criação e imp
 - **Slogan:** Imprimindo sonhos
 - **Cores principais:** bronze/dourado, tons claros e verde de apoio
 - **Estilo:** limpo, artesanal, acolhedor e institucional
+- **Fonte principal:** Montserrat
 - **Tipografia:** títulos fortes inspirados no nome da logo; textos de apoio mais leves, inspirados no subtítulo da marca
+- **Uso da fonte:** títulos, menus, botões e textos do site
 
 ## Conteúdo previsto
 
