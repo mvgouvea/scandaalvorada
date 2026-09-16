@@ -25,7 +25,11 @@
         <span>Scan da Alvorada 3D</span>
       </a>
 
-      <nav class="site-nav" aria-label="Navegação principal">
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
         <a href="#sobre">Sobre</a>
         <a href="#encomendas">Encomendas</a>
         <a href="#portfolio">Portfólio</a>
@@ -128,24 +132,35 @@
 
       <section class="section portfolio" id="portfolio">
         <div class="section-heading">
-          <p class="eyebrow">Portfólio em construção</p>
-          <h2>Em breve: peças impressas, referências e projetos recomendados</h2>
+          <p class="eyebrow">Portfólio</p>
+          <h2>Ideias que podem virar peças</h2>
+          <p>Uma seleção visual para mostrar o que podemos criar. As imagens abaixo estão preparadas para receber fotos reais dos trabalhos da Scan da Alvorada 3D.</p>
         </div>
 
         <div class="portfolio-grid">
-          <article>
-            <h3>Brindes</h3>
-            <p>Chaveiros, miniaturas, nomes, placas e lembranças personalizadas.</p>
-          </article>
-          <article>
-            <h3>Presentes</h3>
-            <p>Itens criativos feitos para datas especiais, colecionadores e decoração afetiva.</p>
-          </article>
-          <article>
-            <h3>Projetos 3D</h3>
-            <p>Links de modelos recomendados, referências de Make e futuros projetos autorais.</p>
-          </article>
+          <article class="portfolio-card portfolio-card-presentes"><img class="portfolio-image" src="assets/images/imagem_01.png" alt="Presente criativo representando uma peça personalizada"><div class="portfolio-card-copy"><span>Presentes</span><h3>Feitos para marcar momentos</h3></div></article>
+          <article class="portfolio-card portfolio-card-decoracao"><img class="portfolio-image" src="assets/images/imagem_02.png" alt="Peça decorativa impressa em 3D em um ambiente acolhedor"><div class="portfolio-card-copy"><span>Decoração</span><h3>Detalhes que transformam espaços</h3></div></article>
+          <article class="portfolio-card portfolio-card-projetos"><img class="portfolio-image" src="assets/images/imagem_03.png" alt="Projeto de impressão 3D ao lado de uma impressora e computador"><div class="portfolio-card-copy"><span>Projetos</span><h3>Do conceito ao objeto</h3></div></article>
         </div>
+
+        <div class="portfolio-cta"><p>Gostou de uma ideia ou já tem uma referência?</p><a class="button button-primary" href="https://www.instagram.com/scandaalvorada/" target="_blank" rel="noreferrer">Solicitar orçamento</a></div>
+
+        <div class="model-library">
+          <div class="model-library-copy"><p class="eyebrow">Referências 3D</p><h3>Encontre um ponto de partida</h3><p>Explore as plataformas abaixo para descobrir modelos, inspirações e soluções. Depois, nós avaliamos arquivo, escala, licença e viabilidade de impressão.</p><p class="external-note">Os links levam a sites externos. A disponibilidade e a licença de cada arquivo devem ser verificadas antes da produção.</p></div>
+  <div class="model-library-links">
+  <div class="model-links model-links-featured" aria-label="Plataformas principais de modelos 3D">
+            <a href="https://makerworld.com/" target="_blank" rel="noreferrer"><span><strong>MakerWorld</strong><small>Modelos prontos e comunidade</small></span><b>↗</b></a>
+            <a href="https://www.printables.com/" target="_blank" rel="noreferrer"><span><strong>Printables</strong><small>Projetos para impressão</small></span><b>↗</b></a>
+            <a href="https://www.thingiverse.com/" target="_blank" rel="noreferrer"><span><strong>Thingiverse</strong><small>Biblioteca de modelos</small></span><b>↗</b></a>
+    <a href="https://www.tinkercad.com/" target="_blank" rel="noreferrer"><span><strong>Tinkercad</strong><small>Modelagem 3D online</small></span><b>↗</b></a>
+    <a href="https://www.myminifactory.com/" target="_blank" rel="noreferrer"><span><strong>MyMiniFactory</strong><small>Modelos selecionados</small></span><b>↗</b></a>
+    <a href="https://thangs.com/" target="_blank" rel="noreferrer"><span><strong>Thangs</strong><small>Busca de modelos</small></span><b>↗</b></a>
+    <a href="https://www.cults3d.com/" target="_blank" rel="noreferrer"><span><strong>Cults3D</strong><small>Marketplace de arquivos</small></span><b>↗</b></a>
+    <a href="https://www.cgtrader.com/" target="_blank" rel="noreferrer"><span><strong>CGTrader</strong><small>Modelos 3D</small></span><b>↗</b></a>
+    <a href="https://www.grabcad.com/library" target="_blank" rel="noreferrer"><span><strong>GrabCAD</strong><small>Projetos técnicos</small></span><b>↗</b></a>
+  </div>
+  </div>
+          </div>
       </section>
 
       <section class="contact-section" id="contato">
@@ -153,8 +168,8 @@
           <p class="eyebrow">Fale conosco</p>
           <h2>Tem uma ideia para imprimir?</h2>
           <p>
-            Encomendas e orçamentos começam pelo Instagram Direct. Para enviar fotos,
-            arquivos ou referências, use o e-mail da marca.
+            Conte o que você precisa e receba orientação para transformar a ideia em uma peça possível.
+            O orçamento é feito sob medida para cada projeto.
           </p>
         </div>
 
@@ -173,6 +188,7 @@
         </div>
       </section>
     </main>
+    <script src="js/main.js" defer></script>
 
     <footer class="site-footer">
       <div class="footer-brand">
@@ -181,9 +197,14 @@
       </div>
 
       <nav class="footer-links" aria-label="Contatos do rodapé">
-        <a href="https://www.instagram.com/scandaalvorada/" target="_blank" rel="noreferrer">Instagram</a>
-        <a href="mailto:scandaalvorada@gmail.com">E-mail</a>
+        <a href="https://www.instagram.com/scandaalvorada/" target="_blank" rel="noreferrer"><img src="assets/images/icons8-instagram-50.png" alt="">Instagram</a>
+        <a href="mailto:scandaalvorada@gmail.com"><img src="assets/images/icons8-nova-mensagem-50.png" alt="">E-mail</a>
       </nav>
+
+      <div class="footer-bottom">
+        <small class="footer-copyright">© 2026 Scan da Alvorada 3D</small>
+        <small>Todos os direitos reservados.</small>
+      </div>
     </footer>
   </body>
 </html>
